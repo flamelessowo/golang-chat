@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+textarea {
+	align-self: end;
+	height: 10%;
+	width: 100%;
+}
+
+.chat-box {
+	height: 40rem;
+	border: 5px solid;
+	display: flex;
+}
+
+.conn-selector{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.conn-variant {
+	width: 20%;
+}

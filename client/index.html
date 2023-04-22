@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./index.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1> Welcome to golang Chat room</h1>
+		<div class="chat-box">
+			<textarea rows="5" cols="3"></textarea>
+		</div>
+		<h2>Pickup connection type</h2>
+		<div class="conn-selector">
+			<div class="conn-variant">
+				<input id="ws" type="radio">
+				<label for="ws">Websocket</label>
+			</div>
+			<div class="conn-variant">
+				<input id="poll" type="radio">
+				<label for="poll">HTTP(Polling)</label>
+			</div>
+		</div>
+	</body>
+</html>
